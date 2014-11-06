@@ -4,6 +4,7 @@
 #include <iostream>
 #include "VectorMatrix.h"
 using namespace std;
+using namespace TigerVecMat;
 /* complex interface for Gauss elimination for sloving Ax=b
  * nA is dimension of A, nb is colomn of b
  * A is pointer to first element of matrix A, lda is leading column of A

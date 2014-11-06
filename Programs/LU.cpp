@@ -4,6 +4,7 @@
 #include "VectorMatrix.h"
 #include <iostream>
 using namespace std;
+using namespace TigerVecMat;
 int LUDeComp(double *A, double *L, double *U, int n, int lda, int ldL, int ldU)
 {
 #define A(i, j) A[(i - 1)*lda + j - 1]

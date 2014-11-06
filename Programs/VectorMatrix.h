@@ -7,6 +7,8 @@
 #include <iomanip>
 #include <cmath>
 using namespace std;
+namespace TigerVecMat
+{
 //Level 1 subroutines
 /* Operator for Vector*/
 //y = ax + by + c
@@ -176,5 +178,6 @@ template<class T> void Output(T *A, int row, int col, int lda)
         }
         cout << endl;
     }
+}
 }
 #endif
